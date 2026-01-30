@@ -59,10 +59,6 @@ def main():
     )
     print("Execution Result:\n", result)
 
-    # 実行後の動的セッションの一覧を取得
-    sessions = list_sessions(base_url, headers)
-    print(f"Current Sessions: (count: {len(sessions.get('sessions', []))})\n", sessions)
-
     # 新しいセッションでコードを実行
     result = execute_code(
         base_url,
