@@ -1,5 +1,12 @@
 # Azure Container Apps 動的セッション ハンズオン
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/h-morozumi/azure-containerapps-dynamic-session-sample)
+[![Open in VS Code Online](https://img.shields.io/badge/Open%20in-VS%20Code%20Online-blue?logo=visualstudiocode)](https://vscode.dev/github/h-morozumi/azure-containerapps-dynamic-session-sample)
+
+> **� ヒント**: Fork せずに Codespaces で開いてもハンズオンは問題なく実行できます。Codespaces の利用は**開いたユーザー自身のアカウント**に課金されます（GitHub 無料枠: 120コア時間/月）。このハンズオンは約30分なので無料枠で十分です。
+>
+> **�📝 Fork した場合**: 上記ボタンのURLを自分のリポジトリに変更するか、GitHub リポジトリページの「Code」→「Codespaces」から直接開いてください。
+
 このハンズオンでは、[Azure Container Apps の動的セッション](https://learn.microsoft.com/ja-jp/azure/container-apps/sessions) を使用して、クラウド上で Python コードを実行する方法を学びます。
 
 ## 📋 目次
