@@ -431,3 +431,10 @@ Azure Container Apps 動的セッションのハンズオンを完了しまし�
 
 - [Azure Container Apps Sessions のドキュメント](https://learn.microsoft.com/ja-jp/azure/container-apps/sessions)
 - [Code interpreter sessions in Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/sessions-code-interpreter)
+
+## 📂 その他のサンプル
+
+| サンプル | 説明 |
+|---------|------|
+| [code-interpreter](./code-interpreter/) | Python で Dynamic Sessions REST API を呼び出すサンプル |
+| [mcp](./mcp/) | Dynamic Sessions を MCP サーバーとして利用するサンプル |

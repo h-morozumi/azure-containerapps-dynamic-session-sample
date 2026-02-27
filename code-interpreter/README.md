@@ -16,7 +16,7 @@
 ### Step 1: ディレクトリに移動
 
 ```bash
-cd helloworld
+cd code-interpreter
 ```
 
 ### Step 2: 依存関係をインストール

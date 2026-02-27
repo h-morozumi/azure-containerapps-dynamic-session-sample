@@ -173,7 +173,7 @@ wheels = [
 ]
 
 [[package]]
-name = "helloworld"
+name = "code-interpreter"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
