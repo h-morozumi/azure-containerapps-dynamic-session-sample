@@ -318,6 +318,8 @@ EOF
 
 > **💡 ポイント**: `mcp.json` を開くと、各サーバー定義の上にインラインで「Start」ボタンが表示されます。これをクリックしないと Copilot Chat からツールを利用できません。
 
+> **📝 注意（Codespaces 利用時）**: GitHub Codespaces 環境では、MCP サーバー起動時にセキュリティ警告ダイアログが表示される場合があります。外部の MCP エンドポイントへの接続を許可するかの確認なので、「Allow」を選択して続行してください。ローカルの VS Code / Dev Container 環境では通常表示されません。
+
 ### 4.3 Copilot Chat で確認
 
 1. VS Code で **Copilot Chat** を **Agent モード** で開く

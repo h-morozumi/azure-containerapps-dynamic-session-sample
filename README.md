@@ -446,4 +446,5 @@ Azure Container Apps 動的セッションのハンズオンを完了しまし�
 |---------|------|
 | [code-interpreter](./code-interpreter/) | Python で Dynamic Sessions REST API を呼び出すサンプル |
 | [gpt-code-interpreter](./gpt-code-interpreter/) | Azure OpenAI の Function Calling で Dynamic Sessions をコード実行ツールとして利用するハンズオン |
-| [dynamic-sessions-mcp](./dynamic-sessions-mcp/) | Dynamic Sessions を MCP サーバーとして利用するハンズオン|
+| [dynamic-sessions-mcp](./dynamic-sessions-mcp/) | Dynamic Sessions を MCP サーバーとして利用するハンズオン |
+| [gpt-mcp-interpreter](./gpt-mcp-interpreter/) | Azure OpenAI の Responses API + MCP で Dynamic Sessions をコード実行ツールとして利用するハンズオン |

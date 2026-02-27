@@ -1,0 +1,10 @@
+[project]
+name = "gpt-mcp-interpreter"
+version = "0.1.0"
+description = "Azure OpenAI の Responses API で MCP 経由の動的セッションをコード実行ツールとして利用するサンプル"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "openai>=1.75.0",
+    "python-dotenv>=1.2.1",
+]
