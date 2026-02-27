@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": { "type": "String" },
+        "location": { "type": "String" }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.App/sessionPools",
+            "apiVersion": "2025-02-02-preview",
+            "name": "[parameters('name')]",
+            "location": "[parameters('location')]",
+            "properties": {
+                "poolManagementType": "Dynamic",
+                "containerType": "PythonLTS",
+                "scaleConfiguration": {
+                    "maxConcurrentSessions": 5
+                },
+                "sessionNetworkConfiguration": {
+                    "status": "EgressEnabled"
+                },
+                "dynamicPoolConfiguration": {
+                    "lifecycleConfiguration": {
+                        "lifecycleType": "Timed",
+                        "coolDownPeriodInSeconds": 300
+                    }
+                },
+                "mcpServerSettings": {
+                    "isMCPServerEnabled": true
+                }
+            }
+        }
+    ]
+}

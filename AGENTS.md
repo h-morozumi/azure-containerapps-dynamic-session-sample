@@ -10,6 +10,7 @@ This repository contains hands-on samples for Azure Container Apps Dynamic Sessi
 
 - `/code-interpreter` — Python sample that calls Dynamic Sessions REST API to execute code in a session pool.
 - `/gpt-code-interpreter` — Sample that uses Dynamic Sessions as a code execution tool via Azure OpenAI Function Calling.
+- `/dynamic-sessions-mcp` — Sample that uses Dynamic Sessions as a platform-managed MCP server (JSON-RPC, API key auth).
 
 ## Language and Style
 
@@ -26,4 +27,5 @@ This repository contains hands-on samples for Azure Container Apps Dynamic Sessi
 
 - This project is designed to run in a **DevContainer** (GitHub Codespaces or VS Code Dev Containers).
 - Each sub-project (`/code-interpreter`, `/gpt-code-interpreter`) is an independent Python project managed by `uv`.
+- `/dynamic-sessions-mcp` uses only `curl` and `jq` (no Python project).
 - Refer to each sub-directory's `AGENTS.md` for project-specific instructions.
