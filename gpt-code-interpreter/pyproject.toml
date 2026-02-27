@@ -1,0 +1,12 @@
+[project]
+name = "gpt-code-interpreter"
+version = "0.1.0"
+description = "Azure OpenAI の Function Calling で Dynamic Sessions をコード実行ツールとして利用するサンプル"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "azure-identity>=1.25.1",
+    "httpx>=0.28.1",
+    "openai>=1.60.0",
+    "python-dotenv>=1.2.1",
+]

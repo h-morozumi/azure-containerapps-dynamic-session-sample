@@ -84,6 +84,14 @@ az version
 az login
 ```
 
+> **💡 Codespaces / DevContainer で実行する場合**: ブラウザが開けない環境ではデバイスコードフローを使用してください。
+>
+> ```bash
+> az login --use-device-code
+> ```
+>
+> 表示されるコードを控え、ホストマシンのブラウザで https://microsoft.com/devicelogin を開いてコードを入力するとログインできます。
+
 ### 1.6 環境変数を設定
 
 このハンズオンで使用する変数を設定します：
@@ -437,4 +445,4 @@ Azure Container Apps 動的セッションのハンズオンを完了しまし�
 | サンプル | 説明 |
 |---------|------|
 | [code-interpreter](./code-interpreter/) | Python で Dynamic Sessions REST API を呼び出すサンプル |
-| [mcp](./mcp/) | Dynamic Sessions を MCP サーバーとして利用するサンプル |
+| [gpt-code-interpreter](./gpt-code-interpreter/) | Azure OpenAI の Function Calling で Dynamic Sessions をコード実行ツールとして利用するサンプル |
